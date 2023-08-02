@@ -24,7 +24,7 @@ body {
     margin: 50px auto;
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 form input, form label, form button{
@@ -37,6 +37,7 @@ form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
+    border-radius: 5px;
 }
 
 form input:focus {
@@ -51,7 +52,9 @@ form button {
     font-size: 18px;
     font-weight: bold;
     height: 50px;
+    margin-top: 30px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 form button:hover {
